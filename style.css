@@ -72,6 +72,19 @@ body {
     background-repeat: no-repeat;
     position: relative;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 350px;
+    padding-left: 50px;
+}
+
+.classPlayer:nth-child(2) .character {
+    transform: scaleX(-1);
+    right: 80px;
+}
+
+.classPlayer:nth-child(2) .progressbar {
+    flex-direction: row-reverse;
 }
 
 .arenas.arena1 {
