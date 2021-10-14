@@ -147,7 +147,7 @@ body {
 }
 
 .player2 .extralife {
-    right: 38px;
+    /* right: 38px; */
     flex-direction: row-reverse;
 }
 
